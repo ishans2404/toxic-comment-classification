@@ -50,6 +50,8 @@ We build a Sequential model using Keras with the following layers:
 - **Bidirectional LSTM Layer**: Processes the sequence in both forward and backward directions to capture context.
 - **Dense Layers**: Extract features from the LSTM output with ReLU activation for non-linearity.
 - **Output Layer**: Predicts the probabilities of the six types of toxicity using sigmoid activation.
+#### Model Architecture
+<img src="https://github.com/ishans2404/toxic-comment-classification/blob/7c3572b83327aca94653949cc6eed8dea6aa7476/model-architecture.png" alt="Model Architecture" title="Title" width="30%" height="30%">
 
 ### 4. Model Training
 
